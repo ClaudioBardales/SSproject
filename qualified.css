@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  /* Nav Bar */
+  
+  header {
+    background-color: #1b1a21;
+  }
+  
+  .nav-bar {
+    display: flex;
+    width: 98.8%;
+    margin: auto;
+  }
+  
+  .logo {
+    height: 75px;
+  }
+
+  section {
+    height: 80vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+  }
+  
+  .ellipse {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9edff;
+  }
+  
+  .ellipse .calendar-icon {
+    font-size: 3.5rem;
+    background: linear-gradient(180deg, #aa00ff 0%, #00a3d7 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .title h2 {
+    font-weight: 700;
+    font-size: 1.46rem;
+    line-height: 42px;
+  }
+  
+  .title p {
+    width: 400px;
+    text-align: center;
+    line-height: 26px;
+    color: #777582;
+  }

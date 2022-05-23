@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Simple Store Project</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <img src="img/logo.png" class="logo" alt="logo" />
+      </nav>
+    </header>
+    <section>
+      <div class="title">
+        <div class="ellipse">
+          <i class="fas fa-calendar-days calendar-icon"></i>
+        </div>
+        <h2>Book a Demo</h2>
+        <p>
+          Help us customize your demo by answering the following questions
+          below.
+        </p>
+      </div>
+      <div class="inputs">
+        <form>
+          <label for="email">Business Email</label>
+          <input
+            id="email"
+            type="email"
+            placeholder="Enter your business email"
+          />
+          <label for="business">Business Size</label>
+          <select id="business" name="business">
+            <option value="" selected>Select Size</option>
+            <option value="1-10">1-10</option>
+            <option value="11-15">11-15</option>
+            <option value="51-100">51-100</option>
+            <option value="101-250">101-250</option>
+            <option value="250-1000">250-1000</option>
+            <option value="1000+">1000+</option>
+          </select>
+          <p>What is the most important thing to you in a solution?</p>
+          <div class="radio-buttons">
+            <div class="radio-first-set">
+              <div>
+                <input type="radio" id="radio" name="radio" value="real_time" />
+                <label>Real-time Analytics</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="radio"
+                  name="radio"
+                  value="query_response_time"
+                />
+                <label for="query_response_time">Query Response Time</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="radio"
+                  name="radio"
+                  value="high_concurrency"
+                />
+                <label for="high_concurrency">High Concurrency</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="radio"
+                  name="radio"
+                  value="fast_data_ingest"
+                />
+                <label for="fast_data_ingest">Fast Data Ingest</label>
+              </div>
+            </div>
+            <div class="radio-second-set">
+              <div>
+                <input
+                  type="radio"
+                  id="radio"
+                  name="radio"
+                  value="scalability"
+                />
+                <label for="scalability">Scalability</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="radio"
+                  name="radio"
+                  value="document_storage"
+                />
+                <label for="document_storage">Document Storage</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="radio"
+                  name="radio"
+                  value="full_text_search"
+                />
+                <label for="full_text_search">Full Text Search</label>
+              </div>
+              <div>
+                <input type="radio" id="radio" name="radio" value="price" />
+                <label for="price">Price</label>
+              </div>
+            </div>
+          </div>
+          <button id="btn" type="submit">
+            Continue to Schedule a Time <i class="fas fa-arrow-right"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/3c7b0e35c7.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
