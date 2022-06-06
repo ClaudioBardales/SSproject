@@ -2,17 +2,21 @@ const email = document.querySelector('#email');
 const pattern =
   /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 const submitBtn = document.querySelector('form');
+const span = document.querySelector('span');
 
 const Checker = () => {
   if (email.value.match(pattern)) {
     email.style.border = '1px solid #00873f';
     email.style.borderRadius = '4px';
+    span.innerHTML = '<i class="icon-style-green fa-solid fa-circle-check"></i>';
   } else {
     email.style.border = '1px solid red';
     email.style.borderRadius = '4px';
+    span.innerHTML = '<i class="icon-style-error fa-solid fa-circle-xmark"></i>';
   }
   if (email.value === '') {
     email.style.border = 'inherit';
+    span.innerHTML='';
   }
 };
 

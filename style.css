@@ -171,4 +171,18 @@ label {
   cursor:pointer;
 }
 
+.icon-style-error{
+  position: absolute;
+  top: 428px;
+  right: 817px;
+  color: red;
+}
+
+.icon-style-green{
+  position: absolute;
+  top: 428px;
+  right: 817px;
+  color: green;
+}
+
 
