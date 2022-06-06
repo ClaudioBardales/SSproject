@@ -22,15 +22,21 @@ const Checker = () => {
 
 const renderPages = (e) => {
   const select = document.querySelector('#business');
-  console.log(select.value)
   const radio = document.querySelector('input[type="radio"]:checked');
-  console.log(radio.value);
+
   if (select.value === '1-10' && radio.value === 'document_storage') {
     window.location.href = "qualified.html"
   } else if(select.value === '1-10' && radio.value === 'full_text_search') {
     window.location.href = "qualified.html"
   } else if(select.value === '1-10' && radio.value === 'price'){
-    window.location.href = "qualified.html"
+    window.location.href = "qualified.html"    
+  } else if (email.value === ''){
+    span.innerHTML = '<div class="password-alert">Please Enter Password</div>'
+    email.style.border = '1px solid red'
+    setTimeout(() => {
+      span.style.display='none'
+      email.style.border= 'inherit'
+    }, 3000)
   } else {
     window.location.href = "notqualified.html"
   }

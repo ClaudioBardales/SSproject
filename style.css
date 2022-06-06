@@ -76,6 +76,7 @@ section {
 form {
   display: flex;
   flex-direction: column;
+  gap: 8px;
 }
 
 label {
@@ -171,18 +172,29 @@ label {
   cursor:pointer;
 }
 
+/* Dynamic CSS Styles */
+
 .icon-style-error{
   position: absolute;
-  top: 428px;
+  top: 403px;
   right: 817px;
   color: red;
 }
 
 .icon-style-green{
   position: absolute;
-  top: 428px;
+  top: 403px;
   right: 817px;
   color: green;
+}
+
+.password-alert{
+  color: red;
+  font-weight: 100;
+  position: absolute;
+  top: 429px;
+  right: 717px;
+  font-size: 12px;
 }
 
 
