@@ -12,7 +12,7 @@ Clone this repo to your desktop and run `npm install` to install all the depende
 
 You might want to look into config.json to make change the port you want to use and set up a SSL certificate.
 
-If you just want to see the live project here is the link: [Single Store Booking App](https://zippy-granita-8d5be6.netlify.app/)
+If you just want to see the live project here is the link: [Single Store Booking App](https://venerable-brigadeiros-785813.netlify.app/)
 
 ## Follow My Socials!
 
