@@ -4,7 +4,7 @@ An appointment app for single store made with HTML, CSS and JavaScript
 
 ## About This Project
 
-This is a project that simple store wanted me to make. I wasen't able to finish it in time, but I did learn more regular expressions and using logic with those expressions.
+This is a project that simple store wanted me to make. I wasen't able to finish it in time, but I did learn more regular expressions and using logic with those expressions. I also started to take notes to organize myself and stick to the course instead of being all over the place.
 
 ## Setup
 
