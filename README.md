@@ -1,4 +1,4 @@
-## Loop Studios
+## Single Store Appointment Booking App
 
 An appointment app for single store made with HTML, CSS and JavaScript
 
